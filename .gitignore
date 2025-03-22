@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+whisper.cpp-master/
+
+# 忽略构建输出
+/app/build/
+
+# 忽略APK文件
+*.apk
+
+# 如果模型文件需要单独管理或下载，也可以忽略
+*.bin
